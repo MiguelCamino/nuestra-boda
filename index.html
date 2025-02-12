@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel y Ruth</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Para agregar estilos opcionales -->
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <ul class="header_menu">
+      <li class="header_menu-item">
+        <a class="header_menu-link active" href="#home">Home</a>
+      </li>
+      <li class="header_menu-item">
+        <a class="header_menu-link active" href="#couple">Pareja feliz</a>
+      </li>
+      <li class="header_menu-item">
+        <a class="header_menu-link active" href="#story">Historia de amor</a>
+      </li>
+      <li class="header_menu-item">
+        <a class="header_menu-link active" href="#photos">Nuestros momentos</a>
+      </li>
+      <li class="header_menu-item">
+        <a class="header_menu-link active" href="#venues">Localizaciones</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="header__content">
+    <div class="header__title-wrapper">
+      <h1 class="header_title">Miguel & Ruth</h1>
+      <span class="header_subtitle">
+        "Nos casamos"<br>
+        "17 de mayo, 2025"
+      </span>
+    </div>
+  </div>
+
+  <div class="header__countdown">
+    <p class="countdown_title text--colored">@</p>
+    <div class="countdown__block countdown">@</div>
+  </div>
+</header>
+
+<section class="couple" id="couple">
+  <div class="container">
+    <h2 class="s-title text--colored">Pareja Feliz</h2>
+
+    <div class="couple_groom">
+      <div class="couple_image couple__image-groom--left border--colored"></div>
+      <div class="couple_text couple_text--right">
+        <div class="couple_text-head text--colored">
+          <h3 class="couple_title text--colored">Miguel</h3>
+          <span class="couple_subtitle text--colored">El Novio</span>
+        </div>
+        <div class="couple_text-body">
+          <p class="couple_descr">
+            "Conocí a Ruth hace 7 años en un club, justo cuando regresaba de un viaje. 
+            Fue algo increíble y parecía una coincidencia del destino."
+          </p>
+          <p class="couple_descr">
+            "Desde entonces, supe que era la persona con la que quería compartir mi vida."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="couple_bride">
+      <div class="couple_image couple__image-bride--right border--colored"></div>
+      <div class="couple_text couple_text--left">
+        <div class="couple_text-head text--colored">
+          <h3 class="couple_title text--colored">Ruth</h3>
+          <span class="couple_subtitle text--colored">La Novia</span>
+        </div>
+        <div class="couple_text-body">
+          <p class="couple_descr">
+            "Miguel y yo somos completamente opuestos, pero eso nunca ha sido un problema."
+          </p>
+          <p class="couple_descr">
+            "Lo más importante es que compartimos los mismos valores y metas en la vida. 
+            Hemos crecido juntos y nos hemos convertido en mejores personas."
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <div class="container">
+    <h2 class="s-title text--colored">Nuestra Historia de Amor</h2>
+    <div class="story_slider slick-initialized slick-slider">
+      <button type="button" class="slick-prev arrow-left--colored slick-arrow"></button>
+      <div class="slick-list draggable">
+        <div class="slick-track" style="opacity: 1;">
+          <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+            <div class="story_slide">
+              <div class="story_slider-image">
+                <img class="img-responsive" src="img/slider/3.jpg" alt="Foto">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="slick-next arrow-right--colored slick-arrow"></button>
+    </div>
+  </div>
+</section>
+<div class="story_slider-text">
+    <div class="slider_head-text">
+        <h3 class="couple__title">How he proposed</h3>
+    </div>
+    <p class="story_slider-descr">
+        "Miguel proposed to Ruth in November 2014 just as he completed the NYC Marathon. A month later, Miguel counter-proposed to Ruth on Brooklyn Bridge. They're now busy planning their Valentine's Day 2016 wedding and chasing after their dog, Cody."
+    </p>
+</div>
+
+<div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1045px;">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;"> 
+            <div class="story_slider-image">
+                <img class="story_slider-image img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+        </div>
+        <div class="story_slider-text">
+            <div class="slider_head-text text--colored">
+                <h3 class="couple__title text--colored">Como nos conocimos</h3>
+            </div>
+            <p class="story_slider-descr">
+                "How we met is an unlikely funny story! Three years ago, he tweeted that he was moving and had a bunch of horror DVD's he needed to get rid of. At the time, we didn't follow each other, so a mutual friend responded to his tweet and included me in on it."
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="slick-slide" data-slick-index="1" aria-hidden="true" style="width: 1045px;" tabindex="-1">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;">
+            <div class="story_slider-image">
+                <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+            <div class="story_slider-text">
+                <div class="slider_head-text">
+                    <h3 class="couple_title">Primera cita</h3>
+                </div>
+                <p class="story_slider-descr">
+                    "Ruth showed up to their first date straight from the gym (with her hair still wet from the shower, as Miguel never lets her forget). To her horror, the cozy bar she picked out for their first meeting was hosting an office happy hour, so it was absolutely packed and conversation was near impossible. Both still remember the first time they caught each other's eyes at the bar. After just a few moments, they quickly switched gears and headed to a nearby restaurant."
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1045px;" tabindex="-1">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;">
+            <div class="story__slider-image">
+                <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+            <div class="story_slider-text">
+                <div class="slider__head-text">
+                    <h3 class="couple_title">Como se lo propuse</h3>
+                </div>
+                <p class="story_slider-descr">
+                    "Miguel proposed to Ruth in November 2014 just as he completed the NYC Marathon. A month later, Miguel counter-proposed to Ruth on Brooklyn Bridge. They're now busy planning their Valentine's Day 2016 wedding and chasing after their dog, Cody."
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Google Maps Integration for Ymaps replacement -->
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script>
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+            center: {lat: 40.730610, lng: -73.935242},
+            zoom: 12
+        });
+        var marker = new google.maps.Marker({
+            position: {lat: 40.730610, lng: -73.935242},
+            map: map,
+            title: 'New York City'
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+<!-- Continued slides -->
+<div class="slick-slide slick-cloned" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 1045px;">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;">
+            <div class="story_slider-image">
+                <img class="story_slider-image img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+            <div class="story_slider-text">
+                <div class="slider__head-text text--colored">
+                    <h3 class="couple_title text--colored">Como nos conocimos</h3>
+                </div>
+                <p class="story_slider-descr">
+                    "How we met is an unlikely funny story! Three years ago, he tweeted that he was moving and had a bunch of horror DVD's he needed to get rid of. At the time, we didn't follow each other, so a mutual friend responded to his tweet and included me in on it."
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Another cloned slide -->
+<div class="slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 1045px;">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;">
+            <div class="story_slider-image">
+                <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+            <div class="story__slider-text">
+                <div class="slider_head-text">
+                    <h3 class="couple__title">Our first Date</h3>
+                </div>
+                <p class="story__slider-descr">
+                    "Ruth showed up to their first date straight from the gym (with her hair still wet from the shower, as Miguel never lets her forget). To her horror, the cozy bar she picked out for their first meeting was hosting an office happy hour, so it was absolutely packed and conversation was near impossible. Both still remember the first time they caught each other's eyes at the bar. After just a few moments, they quickly switched gears and headed to a nearby restaurant."
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Final cloned slide -->
+<div class="slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 1045px;">
+    <div>
+        <div class="story_slide" style="width: 100%; display: inline-block;">
+            <div class="story_slider-image">
+                <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random image">
+            </div>
+            <div class="story_slider-text">
+                <div class="slider__head-text">
+                    <h3 class="couple_title">How he proposed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="story_slider-descr">
+    == $0
+    "Miguel proposed to Ruth in November 2014 just as he completed the NYC Marathon. A month later, Miguel counter-proposed to Ruth on the Brooklyn Bridge. They're now busy planning their Valentine's Day 2016 wedding and chasing after their dog, Cody."
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<button type="button" class="slick-next arrow-right--colored slick-arrow" style></button>
+</div>
+</div>
+</section>
+
+<section class="photos" id="photos">
+    <h2 class="s-title text--colored">Our Photos</h2>
+    <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+        <div class="photosslider swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-920px, 0px, 0px);">
+            <div class="photo swiper-slide swiper-slide-duplicate" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="2">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="3">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="4">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate swiper-slide-prev" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="5">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-active" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="0">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-next" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="1">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="2">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="3">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="4">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate-prev" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="5">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="0">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+
+            <div class="photo swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="width: 336px; margin-right: 32px;" data-swiper-slide-index="1">
+                <a class="fancy" href="https://via.placeholder.com/600x400" data-fancybox="gallery">
+                    <img class="img-responsive" src="https://via.placeholder.com/600x400" alt="Random photo">
+                </a>
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            <div class="swiper-button-prev arrow-left--colored-before" tabindex="0" role="button" aria-label="Previous slide">
+                <span>::before</span>
+            </div>
+
+            <div class="swiper-pagination text--colored swiper-pagination-fraction">
+                <span class="swiper-pagination-current">1</span> /
+                <span class="swiper-pagination-total">6</span>
+            </div>
+
+            <div class="swiper-button-next arrow-right--colored-before" tabindex="0" role="button" aria-label="Next slide">
+                <span>::before</span>
+            </div>
+        </div>
+    </div>
+</section>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+</div>
+  <div class="swiper-button-next arrow-right--colored-before" tabindex="0" role="button" aria-label="Next slide"> flex
+  ::before
+</div>
+</div>
+<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+</div>
+</section>
+<section class="venues" id="venues">
+<div class="container">
+<h2 class="s-title text--colored"> Venues</h2>
+<div class="container-sm">
+ <div class="venues__ceremony"> flex
+ <div class="ceremony_card venues__card border--colored">
+<div class="venues__card-head text--colored">
+<h3 class="venues_card-title text--colored"> Wedding Ceremony</h3>
+::after
+</div>
+<div class="venues__card-info">
+ <div class="venues__card-block"> flex
+<span class="venues___card-label mrg">When</span>
+<time class="venues_card-data">17:30, 05 Jul, 2025</time>
+ </div>
+•<div class="venues__card-block"> flex
+<span class="venues___card-label">Where</span>
+<span class="venue_card-data">Saint Thomas Church Fifth Avenue 1 W 53rd St, New York, NY 10019</span>
+  </div>
+</div>
+<a class="venues_card-link" href="#">See on map</a>
+</div>
+ <div class="address__map-container--left address_map">
+<!-- Reemplazo de Yandex Maps con Google Maps -->
+<div id="google-map-ceremony" style="width: 576px; height: 408px; z-index: 0;"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="rvsp"id="rvsp">
+ ::before
+<div class="container">flex
+<div class="rvsp_forrm-wrap">
+<form class="rvsp_form" action method="POST"></form>
+</div>
+</div>
+::after </section>
+<section class="support">
+<div class="container"></div> flex
+</section>
+<div class="to-top bg--colored" style></div>
+<footer class="footer">
+<div class="footer_content"> flex
+<span class="footer_name jeremy text--colored">Miguel</span>
+<div class="footer_image">
+<img src="img/footer/photo.jpg" alt="Photo">
+::after
+</div>
+<span class="footer__name diana text--colored">Ruth</span>
+</div>
+</footer> 
+</body>
+</html>
+
+<script>
+  function initMap() {
+    // Crear un mapa de Google en la ubicación de la ceremonia
+    var map = new google.maps.Map(document.getElementById('google-map-ceremony'), {
+      center: {lat: 40.7580, lng: -73.9855}, // Coordenadas de Saint Thomas Church, New York
+      zoom: 14
+    });
+
+    var marker = new google.maps.Marker({
+      position: {lat: 40.7580, lng: -73.9855},
+      map: map,
+      title: 'Saint Thomas Church'
+    });
+  }
+
+  // Cargar el mapa cuando la página esté lista
+  window.onload = function() {
+    initMap();
+  }
+</script>
+<!-- Añadir la API de Google Maps -->
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+
+</body>
+</html>
